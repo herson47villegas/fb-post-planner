@@ -1386,10 +1386,11 @@ pre code {
   overflow-y: scroll;
 }
 .container {
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 200px;
+  padding-left: 150px;
   margin-right: auto;
   margin-left: auto;
+
 }
 @media (min-width: 768px) {
   .container {
@@ -2350,8 +2351,8 @@ output {
   padding: 6px 12px;
   font-size: 14px;
   line-height: 1.42857143;
-  color: #555;
-  background-color: #fff;
+  color: black;
+  background-color: #ebf8f8;
   background-image: none;
   border: 1px solid #ccc;
   border-radius: 4px;

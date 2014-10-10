@@ -1,25 +1,25 @@
-<div class="container" style='top: 70px; position: relative;'>
+<div class="container" style='top: 155px; position: relative;'>
     <div class='row well blue'>
 
         <form role="form" id="post-form" action="/" method="post" class="col-md-8">
           <div class="form-group">
-            <label for="exampleInputEmail1">Status: </label>
+            <label for="exampleInputEmail1">Update Status: </label>
             <div class="fbpost">
-            	<textarea name="message" class="form-control" id="message" required placeholder="Write Something..."></textarea>
+            	<textarea name="message" class="form-control" id="message" required placeholder="Use Me Human! Write Here!"></textarea>
             </div>
             <input type="hidden" name="access_token" value="">
             <input type="hidden" name="fbID" value="">
             <div class="form-group">
                 <div class='input-group date' id='datetimepicker'>
-                    <input type='text' class="form-control" name="date_to_post" placeholder="Date to post"/>
+                    <input type='text' class="form-control" name="date_to_post" placeholder="Date/Time"/>
                     <span class="input-group-addon"><span class="glyphicon glyphicon-calendar" required></span>
                     </span>
                 </div>
             </div>
           </div>
           <div class="button">
-	          <button id="button" type="submit" class="btn btn-default btn-facebook">Schedule</button>
-	          <button id="button" type="submit" class="btn btn-default btn-facebook">Post</button>
+	          <button id="button" type="submit" class="btn btn-default btn-facebook">Schedule This Post</button>
+	          <div id="post-now" type="submit" class="btn btn-default btn-facebook">Post Right Now</div>
           </div>
         </form>
         <div class="fb-like" data-href="https://developers.facebook.com/apps/1514834968759921/dashboard/" data-layout="standard" data-action="like" data-show-faces="false" data-share="false"></div>

@@ -5,6 +5,13 @@ api_version: 1
 threadsafe: true
 
 handlers:
+- url: /static/css
+  static_dir: static/css
+  mime_type: "text/css"
+
+- url: /static/image
+  static_dir: static/image
+  mime_type: "image/jpeg"
 - url: /static
   static_dir: static
   mime_type: text/css
