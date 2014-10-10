@@ -6237,3 +6237,33 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+#datetimepicker{
+  width: 30%
+}
+.mybtn{
+ padding: 5px 5px 5px 5px;
+ position: relative;
+ float: right;
+}
+.button{
+ padding-left:20px;
+}
+.fbpost{
+ padding: 20px 20px 20px 20px;
+}
+.input-group{
+ padding-left:20px;
+ padding-bottom:20px;}
+.col-md-8{
+ font-weight:bold;
+ color: #000000;
+}
+
+.blue{
+ background-color:99CCCC;
+ opacity:.9;
+ border:3px solid 4CA2DF;
+}
+.panel-default > .panel-heading .badge {
+color: #f5f5f5;
+background-color: #4797CC;
